@@ -36,9 +36,10 @@ else{
 start.addEventListener("click",startcount)
 
 const resetcount =()=>{
+   msecond.innerHTML = "00"
    second.innerHTML = "00"
    minute.innerHTML = "00"
-   msecond.innerHTML = "00"
+   clearInterval(intervalid)
 }
 reset.addEventListener("click",resetcount)
     
