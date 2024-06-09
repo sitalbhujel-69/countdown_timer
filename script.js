@@ -38,7 +38,7 @@ start.addEventListener("click",startcount)
 const resetcount =()=>{
    second.innerHTML = "00"
    minute.innerHTML = "00"
-   hour.innerHTML = "00"
+   msecond.innerHTML = "00"
 }
 reset.addEventListener("click",resetcount)
     
