@@ -1,4 +1,4 @@
-const minute = document.querySelector("#hminute")
+const minute = document.querySelector("#minute")
 const second = document.querySelector("#second")
 const msecond = document.querySelector("#msecond")
 
